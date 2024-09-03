@@ -1,5 +1,5 @@
 #Transaction Data Compression
-                          #Lossless Compression of Transactional Datasets
+Lossless Compression of Transactional Datasets
 Introduction
   In today's data-driven world, efficient storage and processing of large datasets are paramount. Dataset compression, specifically lossless compression, offers a valuable     solution by reducing the physical size of data without compromising its integrity. This report explores the application of frequent itemset mining for lossless compression   of transactional datasets.
 
