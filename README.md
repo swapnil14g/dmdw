@@ -10,7 +10,7 @@ Problem Statement
 Methodology
   1.Frequent Itemset Mining:
     Apriori Algorithm: The Apriori algorithm was employed to identify frequent itemsets within the dataset.
-    Support Threshold: A support threshold of [insert threshold] was used to determine the significance of itemsets.
+    Support Threshold: A support threshold of 0.5 was used to determine the significance of itemsets.
   
   2.Mapping Creation:
     Frequent Itemset Mapping: Frequent itemsets were mapped to unique identifiers.
@@ -21,8 +21,8 @@ Methodology
     Identifier Substitution: The original itemsets were replaced with their identifiers.
 
 Results
-Compression Ratio: [insert compression ratio]
-Storage Savings: [insert storage savings]
+Compression Ratio: 36.96530165676774
+Storage Savings: 115053
 
 Mapping:
 
@@ -41,7 +41,7 @@ Mapping:
                                           |  A, B, C, D, F       	|        X, F             |
                                           ---------------------------------------------------
 Analysis
-The compression achieved was [insert percentage]. The choice of support threshold and mapping optimization significantly influenced the compression ratio. [Insert additional insights or observations about the results.]
+The compression achieved was 97.29%. The choice of support threshold and mapping optimization significantly influenced the compression ratio. 
 
 Conclusion
 Frequent itemset mining proved to be an effective approach for lossless compression of transactional datasets. By identifying and exploiting common patterns, significant storage savings were achieved without sacrificing data integrity. Future research could explore more advanced compression techniques or consider different dataset characteristics.
