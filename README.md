@@ -25,6 +25,8 @@ Compression Ratio: [insert compression ratio]
 Storage Savings: [insert storage savings]
 
 Mapping:
+
+
                                           ---------------------------------------------------
                                           | Identifier	          |       Itemset           |
                                           ---------------------------------------------------
