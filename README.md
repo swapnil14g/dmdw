@@ -1,13 +1,14 @@
-#Transaction Data Compression
-Lossless Compression of Transactional Datasets
-Introduction
+# Transaction Data Compression
+
+## Lossless Compression of Transactional Datasets
+###Introduction
   In today's data-driven world, efficient storage and processing of large datasets are paramount. Dataset compression, specifically lossless compression, offers a valuable     solution by reducing the physical size of data without compromising its integrity. This report explores the application of frequent itemset mining for lossless compression   of transactional datasets.
 
-Problem Statement
+###Problem Statement
   The goal is to compress a transactional dataset while ensuring that the original data can be fully reconstructed. This involves identifying patterns or commonalities 
   within the data to reduce redundancy.
 
-Methodology
+### Methodology
   1.Frequent Itemset Mining:
     Apriori Algorithm: The Apriori algorithm was employed to identify frequent itemsets within the dataset.
     Support Threshold: A support threshold of 0.5 was used to determine the significance of itemsets.
@@ -20,11 +21,11 @@ Methodology
     Transaction Decomposition: Transactions were decomposed into their corresponding frequent itemsets.
     Identifier Substitution: The original itemsets were replaced with their identifiers.
 
-Results
+### Results
 Compression Ratio: 36.96530165676774
 Storage Savings: 115053
 
-Mapping:
+### Mapping:
 
 
                                           ---------------------------------------------------
@@ -40,8 +41,8 @@ Mapping:
                                           |  A, B, C, D, E	      |        X, Y             |
                                           |  A, B, C, D, F       	|        X, F             |
                                           ---------------------------------------------------
-Analysis
+### Analysis
 The compression achieved was 97.29%. The choice of support threshold and mapping optimization significantly influenced the compression ratio. 
 
-Conclusion
+### Conclusion
 Frequent itemset mining proved to be an effective approach for lossless compression of transactional datasets. By identifying and exploiting common patterns, significant storage savings were achieved without sacrificing data integrity. Future research could explore more advanced compression techniques or consider different dataset characteristics.
